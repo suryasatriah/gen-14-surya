@@ -38,6 +38,7 @@ public class Soal_2 {
                 System.out.println("tanggo");
             } else if (uang - aqua >= 0){
                 uang = uang - aqua;
+                System.out.println("aqua");
             } 
         }
 
