@@ -4,7 +4,7 @@
  * 
  */
 
-package Bidang;
+package src.Tugas1;
 
 public class Lingkaran {
     private double radius;

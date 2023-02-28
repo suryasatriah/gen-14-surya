@@ -3,7 +3,7 @@
  * 
  */
 
-package Bidang;
+package src.Tugas1;
 
 //Class untuk menghitung luas dan keliling belahketupat.
 public class BelahKetupat {

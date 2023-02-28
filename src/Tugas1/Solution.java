@@ -1,3 +1,6 @@
+package src.Tugas1;
+
+
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
@@ -62,7 +65,7 @@ public class Solution {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-        int n = Integer.parseInt(bufferedReader.readLine().trim());
+        //int n = Integer.parseInt(bufferedReader.readLine().trim());
 
         List<Integer> sticks = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
             .map(Integer::parseInt)

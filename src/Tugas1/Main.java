@@ -1,13 +1,10 @@
+package src.Tugas1;
 
 /**
  * @author : Surya Satria Hidayat
  * Class untuk melakukan inpun parameter dan atribut bidang datar, serta menampilkan array hasil perhitungan
  */
 
-import Bidang.BelahKetupat;
-import Bidang.Lingkaran;
-import Bidang.Persegi;
-import Bidang.Segitiga;
 import java.util.Scanner;
 
 public class Main {

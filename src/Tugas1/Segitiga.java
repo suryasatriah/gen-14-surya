@@ -3,7 +3,7 @@
  * @author : Surya Satria Hidayat
  * 
  */
-package Bidang;
+package src.Tugas1;
 
 public class Segitiga {
     private double alas;
