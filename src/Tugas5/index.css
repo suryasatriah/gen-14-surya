@@ -1,0 +1,211 @@
+* {
+  max-width: 1586px;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+hr.default {
+  border-top: 1px solid red;
+}
+
+.parallax-1 {
+  background-image: url(./public/image/banner.JPG);
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-1 h1 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+}
+
+p,
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-page h1 {
+  color: blue;
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+side.main-page{
+  width: 25%;
+  background: black;
+  flex-direction: column;
+}
+
+#jam {
+  font-size: 80px;
+  color: white;
+  padding-left: 10px;
+}
+
+side.main-page h1 {
+  font-size: 80px;
+  color: white;
+  padding-left: 10px;
+}
+
+main.main-page {
+  width: 75%;
+  flex-direction: column;
+  padding: 3rem;
+  overflow: hidden;
+  position: relative;
+  color:darkblue;
+}
+
+.main-page-bg {
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:auto;
+  height: 100%;
+}
+
+.main-page-content {
+  position: relative;
+}
+
+main.portofolio {
+  width: 20%;
+}
+
+.profile {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+img.profile{
+  display: block;
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+col1.profile{
+  width: 30%;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+col2.profile {
+  width: 70%;
+  flex-direction: column;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.parallax-2 {
+  background-image: url(./public/image/paralax-2.jpeg);
+  height: 50%;
+  opacity: 50%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.galeri img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 70%;
+  height: auto;
+}
+
+.center-align {
+  margin: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: center;
+  display: flex;
+}
+
+.social-media {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.social-media h3 {
+  color: blue;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 80px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.fa:hover {
+  opacity: 0.7;
+  transform: scale(1.1);
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.blank {
+  background: white;
+  height: 100px;
+}
+
+/** belum responsive */

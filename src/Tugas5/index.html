@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surya Satria Hidayat</title>
+
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7542f4196a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body onload="Clock()">
+    <div class="parallax-1">
+      <h1>SURYA SATRIA HIDAYAT</h1>
+    </div>
+
+    <div class="main-page">
+      <side class="main-page">
+        <div class="sticky" id="#nav1">
+          <h1>SRY.</h1>
+          <div id="jam"></div>
+        </div>
+      </side>
+
+      <main class="main-page">
+        <img
+          src="./public/image/background-main.jpg"
+          alt="backgroung"
+          class="main-page-bg"
+        />
+        <div class="main-page-content">
+          <h1>SELAYANG PANDANG</h1>
+
+          <hr class="default" />
+
+          <h2>
+            Menggapai Impian dengan Tekad Kuat dan Semangat Pantang Menyerah
+          </h2>
+
+          <p>
+            Selamat datang di website saya, di sini Anda akan menemukan cerita
+            dan pengalaman hidup saya. Saya percaya bahwa setiap orang memiliki
+            cerita yang unik, dan saya ingin berbagi cerita saya dengan Anda.
+            Melalui website ini, saya ingin menginspirasi Anda untuk menemukan
+            arti hidup Anda sendiri dan meraih kesuksesan yang Anda impikan.
+          </p>
+
+          <p>
+            Saya memiliki banyak pengalaman dan keahlian yang ingin saya bagikan
+            dengan Anda, dari perjalanan hidup saya hingga keterampilan dan
+            pengetahuan yang saya miliki. Saya juga menyediakan konten edukatif
+            yang dapat membantu Anda meningkatkan keterampilan dan pengetahuan
+            Anda.
+          </p>
+
+          <p>
+            Saya percaya bahwa hidup harus diisi dengan kebahagiaan dan
+            kesuksesan, dan saya ingin membantu Anda mencapai tujuan Anda. Jadi,
+            bergabunglah dengan saya dan mari kita menjalani perjalanan hidup
+            yang penuh dengan makna dan kebahagiaan."
+          </p>
+
+          <h1>PROFIL</h1>
+
+          <div>
+            <img
+              src="./public/image/profile.jpg"
+              alt="profile"
+              class="profile"
+            />
+          </div>
+
+          <div class="profile">
+            <col1 class="profile">
+              <p>Nama</p>
+              <p>Tempat/Tanggal Lahir</p>
+              <p>Profesi</p>
+              <p>Motto Hidup</p>
+            </col1>
+
+            <col2 class="profile">
+              <p>: Surya Satria Hidayat</p>
+              <p>: Bandung, 19 November 2000</p>
+              <p>: Software Engineer</p>
+              <p>: Jalankan hidup sebaik mungkin!</p>
+            </col2>
+          </div>
+
+          <div class="center-align" id="#target-div">
+            <h1>GALERI</h1>
+          </div>
+
+          <div class="galeri">
+            <img
+              class="foto-galeri"
+              src="./public/image/gambar1.jpg"
+              alt="gambar1"
+            />
+            <img
+              class="foto-galeri"
+              src="./public/image/gambar2.jpg"
+              alt="gambar2"
+            />
+            <img
+              class="foto-galeri"
+              src="./public/image/gambar3.jpg"
+              alt="gambar3"
+            />
+            <img
+              class="foto-galeri"
+              src="./public/image/gambar4.jpg"
+              alt="gambar4"
+            />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div class="parallax-2"></div>
+
+    <div class="social-media">
+      <h1>
+        "Lemparkan impianmu ke luar angkasa seperti layang-layang, dan kamu<br />
+        tidak tahu apa yang akan dibawanya kembali, kehidupan baru,<br />
+        teman baru, cinta baru, negara baru." -Anais Nin
+      </h1>
+
+      <h3>Terus terhubung dengan Surya melalui media sosial.</h3>
+    </div>
+
+    <div class="center-align">
+      <a
+        href="https://instagram.com/suryasatriah/"
+        target="_blank"
+        class="fa fa-instagram"
+      ></a>
+      <a
+        href="https://twitter.com/suryasatriahx/"
+        target="_blank"
+        class="fa fa-twitter"
+      ></a>
+      <a
+        href="https://linkedin.com/in/suryasatriah/"
+        target="_blank"
+        class="fa fa-linkedin"
+      ></a>
+    </div>
+
+    <div class="blank" />
+  </body>
+
+  <script>
+    function Clock() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById("jam").innerHTML = h + ":" + m;
+      setTimeout(startTime, 1000);
+    }
+
+    function checkTime(i) {
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    }
+  </script>
+</html>
